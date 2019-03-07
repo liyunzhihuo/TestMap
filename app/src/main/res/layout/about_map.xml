@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_simple_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="simpleMap"
+        android:text="基本的地图展示" />
+
+    <Button
+        android:id="@+id/btn_map_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="locationMap"
+        android:text="地图和定位" />
+</LinearLayout>

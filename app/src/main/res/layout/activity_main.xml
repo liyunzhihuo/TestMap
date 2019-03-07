@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="aboutLocation"
+        android:text="定位" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="aboutMap"
+        android:text="地图" />
+
+    <Button
+        android:id="@+id/guid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="导航" />
+
+    <Button
+        android:id="@+id/poi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="aboutPoi"
+        android:text="Poi检索" />
+
+    <Button
+        android:id="@+id/other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其他" />
+</LinearLayout>
